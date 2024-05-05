@@ -1,0 +1,121 @@
+:root {
+    --base-color: #777777;
+}
+div {
+    /*border: 1px dotted blue;*/
+}
+.name-company {
+    font-weight: bold;
+    color: var(--base-color);
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+.company-name {
+    width: 110px;
+    margin-left: 20px;
+}
+.square {
+    width: 5rem;
+    height: 5rem;
+    background: var(--base-color);
+}
+.name-description {
+    color: var(--base-color);
+    line-height: 15px;
+}
+.tel {
+    color: var(--base-color);
+    font-size: 19px;
+    font-weight: bold;
+}
+.feedback {
+    text-align: end;
+    font-weight: normal;
+    font-size: 17px;
+}
+.menu {
+    background: var(--base-color);
+    height: 50px;
+    width: 100%;
+}
+.ul-menu {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0;
+}
+.li-menu {
+    width: 13rem;
+    color: white;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+.li-menu:hover {
+    background: gray;
+}
+.left {
+    width: 25%;
+}
+.right {
+    width: 75%;
+    gap: 46px;
+    padding: 0 0 0 30px;
+}
+.card-block {
+    width: 30%;
+    background: #DCDCDC;
+    height: 400px;
+    border-radius: 10px;
+}
+.card-image {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-details {
+    width: 100%;
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+}
+.description {
+    padding: 10px;
+    height: 150px;
+    overflow: hidden;
+}
+.description:hover {
+    overflow: auto;
+}
+.price-card {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.price {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.simbol-card {
+    display: flex;
+    align-items: center;
+    font-size: 37px;
+    padding-right: 20px;
+}
+.question {
+    color: #464646;
+    font-size: 30px;
+    line-height: 43px;
+    margin-bottom: 13px;
+}
+.pag {
+    margin: 20px auto;
+}
